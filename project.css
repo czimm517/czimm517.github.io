@@ -1,0 +1,146 @@
+ * {
+            box-sizing: border-box;
+        }
+
+        body {
+            color: white;
+            margin: 0;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav-header {
+            height: 150px;
+            background: #f0f5f5;
+            display: flex;
+        }
+
+        .nav-div {
+            margin: auto;
+        }
+
+        .logo-img {
+            width: 120px;
+            margin-left: 20px;
+        }
+
+        .search-icon {
+            margin: 30px;
+        }
+
+        .nav-bar {
+            list-style-type: none;
+            display: flex;
+        }
+
+        .nav-bar-link {
+            color: grey;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .main-header {
+            background: url("imgs/bostonpic.jpg") no-repeat center;
+            background-size: cover;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+
+        .main-header-title {
+            text-align: left;
+            font-size: 2.5em;
+            color: #f7f8f9;
+            text-transform: uppercase;
+            font-weight: normal;
+            padding-left: 75px;
+            text-shadow: 2px 2px 5px grey;
+            margin-top: 0;
+        }
+
+        .main-header-intro {
+            line-height: 1.5em;
+            width: 50%;
+            margin: auto;
+            padding: 40px;
+            color: #333333;
+            text-align: justify;
+        }
+
+            .button {
+            display: block;
+            background-color: red;
+            border-radius: 10px;
+            width: 120px;
+            margin: auto;
+            padding: 20px;
+            color: white;
+        }
+
+        .button-green {
+            display: block;
+            background-color: green;
+            border-radius: 10px;
+            width: 120px;
+            margin: auto;
+            padding: 20px;
+            color: white;
+        }
+
+        .box {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .card {
+            width: 100%;
+            padding: 20px;
+            text-align: left;
+            background-color: black;
+            /*margin: 18px;*/
+            border-radius: 10px;
+            box-shadow: 5px 10px #888888;
+        }
+
+        .footer {
+            height: 40px;
+            background: #f0f5f5;
+            padding: 5px;
+        }
+
+        .main-header-bruin {
+            background: url("imgs/player.jpg") no-repeat center;
+            background-size: cover;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+
+        .main-header-patriot {
+            background: url("imgs/pats.jpg") no-repeat center;
+            background-size: cover;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+
+        .main-header-redsox {
+            background: url("imgs/mookie.jpg") no-repeat center;
+            background-size: cover;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+
+        .main-header-celtics {
+            background: url("imgs/celticplayers.jpg") no-repeat center;
+            background-size: cover;
+            height: 200px;
+            margin-bottom: 20px;
+        }
